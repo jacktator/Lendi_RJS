@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 // TODO: There is a Semantic HTML issue in this file, please correct it.
-const Container = styled.div`
+const ArticleContainer = styled.article`
   cursor: pointer;
 `;
 
@@ -17,10 +17,13 @@ function Article(props) {
   }
 
   return (
-    <Container onClick={handleClick}>
+    <ArticleContainer onClick={handleClick}>
       <h2>{title}</h2>
-      {isSelected && <p>{body}</p>}
-    </Container>
+      {
+        isSelected &&
+        <p>{body}</p>
+      }
+    </ArticleContainer>
   );
 }
 

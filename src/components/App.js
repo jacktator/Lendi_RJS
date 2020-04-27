@@ -1,13 +1,22 @@
 import React from 'react';
 import IO from './IO';
 import List from './List';
+import styled from 'styled-components';
+
+const AppContainer = styled.main`
+  
+  display: flex;
+  flex-direction: column;
+  
+  
+`;
 
 function App() {
   return (
-    <main>
+    <AppContainer>
       <IO />
       <List />
-    </main>
+    </AppContainer>
   );
 }
 

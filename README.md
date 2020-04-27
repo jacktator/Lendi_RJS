@@ -26,19 +26,30 @@ dev sever will then open your browser to http://localhost:3000/
 All the test instructions below are displayed in the files as well except Task 4, here are the lists for summary:
 
 ### Task 1: Article.js
-1. Follow the Semantic HTML standard
+- [x] Follow the Semantic HTML standard
 
 ### Task 2: IO.js
-1. Make it fixed.
-2. Listen to window mousemove and window resize.
-3. Remove listeners.
+- [x] Make it fixed.
+- [x] Listen to window mousemove and window resize.
+- [x] Remove listeners.
 
 ### TASK 3: List.js
-1. Refactor to Function Component & Hooks.
-2. Use async/await.
-3. Need to add a case for handling an empty articles list.
-4. Limit to 10 and order the articles alphabetically.
+- [x] Refactor to Function Component & Hooks.
+- [x] Use async/await.
+- [x] Need to add a case for handling an empty articles list.
+- [x] Limit to 10 and order the articles alphabetically.
 
 ### Task 4
-1. How would you improve this codebase?
-2. How kind of tooling would you use in this repo to help developers collaborate?
+- [ ] How would you improve this codebase?
+- [ ] How kind of tooling would you use in this repo to help developers collaborate?
+
+1. Improvement
+- [ ] Readme tag
+- Use React-Media / Rect-Responsive & Hooks to handle resize 
+- Remove TypeScript
+- PropTypes
+- Limit Responsive from API 
+
+2. Tooling
+- ESLint
+- Storybook
